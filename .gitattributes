@@ -1,0 +1,4 @@
+# Windows scripts must keep CRLF line endings; the Unix Maven wrapper must keep LF.
+*.bat text eol=crlf
+*.cmd text eol=crlf
+backend/mvnw text eol=lf
